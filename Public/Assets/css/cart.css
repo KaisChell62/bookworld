@@ -1,0 +1,180 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #2096E0;
+    color: #fff;
+}
+
+/* Styles pour la catégorie "Action" */
+.product-actions {
+    text-align: left; /* Ajuste le texte à gauche */
+    padding: 8px;
+}
+
+/* Styles pour le bouton "Delete" */
+.delete-button {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    margin: 5px 0; /* Ajuste la marge pour positionner le bouton sous la catégorie "Action" */
+}
+
+/* Styles pour la cellule de la catégorie "Action" (ajustez la largeur si nécessaire) */
+.product-actions {
+    width: 100px; /* Ajustez la largeur selon vos besoins */
+}
+
+.cart-summary {
+    width: 30%;
+    background: #2096E0;
+    color: #fff;
+    padding: 20px;
+}
+
+#checkoutButton {
+    background-color: #ff3300;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#similarProducts {
+    text-align: center;
+    margin: 20px;
+}
+
+#similarProducts h2 {
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Style du séparateur invisible */
+.separator {
+    height: 229px; /* Ajustez la hauteur selon vos besoins pour pousser le footer vers le bas */
+    visibility: hidden;
+}
+
+/* Style du conteneur du carrousel */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrage horizontal */
+}
+
+/* Style du carrousel lui-même */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+}
+
+/* Style du conteneur des livres */
+.books-container {
+    display: flex;
+    gap: 10px; /* Espace entre les livres */
+    justify-content: space-between; /* Espacement uniforme entre les livres */
+    align-items: center; /* Aligner les images à la même hauteur */
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    overflow: auto; /* Ajoute une barre de défilement horizontal si nécessaire */
+}
+
+/* Style des images des livres (réduction de la taille) */
+.book img {
+    max-width: 150px; /* Ajustez la taille maximale selon vos besoins */
+    max-height: 200px; /* Ajustez la hauteur maximale selon vos besoins */
+}
+
+/* Style des boutons de navigation du carrousel */
+.carousel-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-btn:hover {
+    background-color: #555;
+}
+
+.prev-btn {
+    margin-right: 10px; /* Ajustez la marge à droite pour le bouton précédent */
+}
+
+.next-btn {
+    margin-left: 20px !important; /* Ajustez la marge à gauche pour le bouton suivant */
+}
+
+/* Style pour les images des livres */
+.book {
+    max-width: 250px;
+    max-height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px; /* Abaissement des titres des livres */
+}
+
+.testC{
+    background-color: #f0f0f0;
+    width: 200px;
+    height: 300px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin: 20px 0px;
+}
+
+/* Style pour les liens */
+a {
+    color: inherit; /* Réinitialise la couleur du texte à la valeur par défaut */
+    text-decoration: none; /* Supprime la soulignement par défaut des liens */
+}

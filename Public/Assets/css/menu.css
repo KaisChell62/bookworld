@@ -1,0 +1,134 @@
+<<<<<<< Updated upstream
+ul{
+	justify-content: space-between;
+	text-align: center;
+}
+
+/* menu.css */  
+
+.menu-body {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    list-style-type: none;
+    background-color: #27262c;
+    margin: 0; /* Ajoutez cette ligne pour supprimer la marge */
+}
+
+.menu-body ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0; /* Ajoutez cette ligne pour supprimer la marge */
+}
+
+.menu-body li {
+    margin: 0 10px;
+    padding: 5px;
+    position: relative;
+}
+
+=======
+/* menu.css */
+
+/* Stylisation des bulles */
+.menu-body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #2375D8, #2096E0);
+    padding: 10px 0;
+}
+
+.menu-body ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-body li {
+    margin: 0 10px;
+    padding: 5px;
+    position: relative;
+}
+
+>>>>>>> Stashed changes
+.menu-body a {
+    text-decoration: none;
+    color: #F9F8FD;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+.menu-body a:hover {
+    color: #FFA91B;
+<<<<<<< Updated upstream
+}
+
+li {
+    padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+	min-width: 80px;
+	margin: auto;
+}
+
+
+/* Media Query pour les téléphones */
+@media screen and (max-width: 768px) {
+    .menu-body ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-body li {
+        margin: 10px 0;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .menu-body li:before {
+        display: none;
+    }
+}
+li:active {
+  transform: translateY(4px);
+}
+
+
+=======
+}
+
+/* Animation des bulles */
+.menu-body li:before {
+    content: '';
+    position: absolute;
+    border: 2px solid #F9F8FD;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #2375D8;
+    animation: bubble 2s infinite;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(-50%) translateY(-20px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+}
+>>>>>>> Stashed changes
